@@ -1,0 +1,8 @@
+On: [push]
+
+jobs:
+hola: 
+    runs-on: ubuntu-latest 
+    steps:
+    -name: HOLA IDELKA
+    runs: echo "ME DESPLEGASTE PEDRITO"
