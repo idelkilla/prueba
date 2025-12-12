@@ -1,7 +1,7 @@
 on: [push]
 jobs:
-hola: 
-    runs-on: ubuntu-latest 
+  hola:
+    runs-on: ubuntu-latest
     steps:
-    -name: HOLA IDELKA
-    runs: echo "ME DESPLEGASTE PEDRITO"
+      - name: Hola, Idelka
+        run: echo "Hola, Idelka. Eres muy cute."
