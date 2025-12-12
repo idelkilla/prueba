@@ -1,5 +1,4 @@
-On: [push]
-
+on: [push]
 jobs:
 hola: 
     runs-on: ubuntu-latest 
