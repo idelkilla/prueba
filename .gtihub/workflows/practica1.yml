@@ -1,0 +1,20 @@
+name: Basic Workflow
+
+on:
+  push:
+    branches:
+      - basic-workflow
+
+jobs:
+  do-things:
+    name: Do Things
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Logrado
+        run: echo "Lo he logrado!"
+
+      - name: An Error I made
+        run: |
+          echo "Cometí un error!"
+          
